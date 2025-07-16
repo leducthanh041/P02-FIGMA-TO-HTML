@@ -185,7 +185,8 @@ a {
   width: 641px;
 }
 
-media-block .img {
+.media-block .img {
+  background: #e0f7f6;
   object-fit: cover;
 }
 
