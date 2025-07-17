@@ -8,6 +8,7 @@ html {
 
 :root {
   --primary-color: #1ebfc1;
+  --secondary-color: #2ac9bf;
 }
 
 /* khôi phục lại cỡ chữ mặt định theo rem */
@@ -27,6 +28,19 @@ a {
   justify-content: center;
 }
 
+.heading-lv1 {
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+}
+
+.heading-lv2 {
+  color: #0d1111;
+  width: 577px;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
 .main-content {
   width: 1170px;
   max-width: calc(100% - 48px);
@@ -40,6 +54,7 @@ a {
   z-index: 1;
   top: -52px;
 }
+
 .header .body {
   padding: 64px 0 8px;
   display: flex;
@@ -106,11 +121,19 @@ a {
 }
 
 /* ==================Hero================== */
+.hero {
+  margin-top: 54px;
+  margin-bottom: 8px;
+}
+
 .hero .body {
   display: flex;
-  margin-top: 54px;
   justify-content: space-between;
   align-items: center;
+}
+
+.hero .main-content {
+  margin-bottom: 79px;
 }
 
 /* ==================Hero left================== */
@@ -126,9 +149,7 @@ a {
 
 .content-block .heading-lv1 {
   margin-top: 18px;
-  color: #0d1111;
-  font-size: 6.2rem;
-  font-weight: 700;
+
   line-height: 1.16;
 }
 
@@ -323,4 +344,444 @@ a {
   margin-left: -7px;
   object-fit: cover;
   border-radius: 50%;
+}
+
+/* ==================Features================== */
+.features {
+  margin-top: 122px;
+  margin-bottom: 8px;
+}
+
+.features .body {
+  width: 88%;
+}
+
+.features .d1 {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.features .heading-lv2 {
+  margin-top: 18px;
+  line-height: 1.33;
+}
+
+.features .d2 {
+  margin-top: 18px;
+  width: 590px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.feature-list {
+  margin-top: 80px;
+  display: flex;
+}
+
+.feature-list .desc2 {
+  margin-top: 26px;
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.feature-list .desc3 {
+  margin-top: 16px;
+  color: #9da6a5;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.69;
+}
+
+.feature-list .live-class {
+  width: 168px;
+}
+
+.feature-list .discuss {
+  width: 223px;
+  margin-left: 209px;
+}
+
+.feature-list .task {
+  width: 224px;
+  margin-left: 200px;
+}
+
+/* ==================Popular Courses================== */
+.courses {
+  margin: 122px 0 8px;
+}
+
+.courses .d1 {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.courses .heading-lv2 {
+  margin-top: 18px;
+  line-height: normal;
+}
+
+.courses .check-out {
+  margin-top: 19px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.check-out .d3 {
+  width: 525px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78;
+}
+
+.check-out .view-courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #1ebfc1;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.courses .course-list {
+  margin-top: 79px;
+  display: flex;
+  gap: 47px;
+}
+
+.course-list .item {
+  position: relative;
+}
+
+.course-list .image {
+  width: 359px;
+  height: 393px;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 0.35;
+  background: #d0efed;
+}
+
+.course-list .info {
+  position: absolute;
+  top: 322px;
+  left: 17px;
+  right: 17px;
+  width: 325px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.course-list .heading-lv3 {
+  margin-top: 18px;
+  margin-left: 25px;
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.course-list .desc1 {
+  margin-top: 16px;
+  margin-left: 25px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.course-list .desc1 strong {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.course-list .desc2 {
+  margin-top: 13px;
+  margin-left: 25px;
+  color: #9da6a5;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.course-list .dots {
+  margin-top: 18px;
+  display: flex;
+  margin-left: 25px;
+  gap: 10px;
+  margin-bottom: 29px;
+}
+
+.course-list .dots .desc2 {
+  margin-top: 0px;
+  margin-left: 0;
+  display: inline-flex;
+  align-items: center;
+}
+
+.course-list .dots .desc2:before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  width: 6px;
+  height: 6px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+/* ==================View Courses================== */
+.view-courses {
+  margin-top: 389px;
+  margin-bottom: 8px;
+}
+
+.view-courses .body {
+  margin-left: 154px;
+  display: flex;
+  width: 74%;
+  justify-content: center;
+  gap: 200px;
+}
+
+.view-courses .desc {
+  margin-top: 36px;
+  color: #767e7e;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+/* ==================Feedback================== */
+.feedback {
+  margin: 256px 0 8px;
+}
+
+.feedback .body {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback .feedback-left {
+  width: 36%;
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+
+.feedback-left .desc1 {
+  margin-top: 27px;
+  width: 419px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+}
+
+.feedback-left .desc2 {
+  margin-top: 33px;
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  display: inline-flex; /*thẻ cha chỉ chứa vừa nội dung của thẻ con*/
+  align-items: center;
+}
+
+.feedback-left .desc2 span {
+  color: #070707;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.feedback-left .desc2::before {
+  content: "";
+  margin-right: 5px;
+  display: inline-block;
+  width: 8px;
+  height: 2px;
+  background-color: #070707;
+}
+
+.feedback-left .nav {
+  margin-top: 52px;
+  gap: 30px;
+  display: flex;
+}
+
+.feedback-left .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+}
+
+.feedback-left .small-icon {
+  margin: 19px 22px;
+}
+
+.feedback-right {
+  width: 58%;
+  margin-left: 72px;
+}
+
+.feedback-right .img {
+  position: absolute;
+  border-radius: 50%;
+  width: 78px;
+  height: 78px;
+  object-fit: cover;
+}
+
+.feedback-right .img.img1 {
+  right: 601px;
+}
+
+.feedback-right .img.img2 {
+  bottom: 389px;
+  top: 0px;
+  height: 92px;
+  right: 443px;
+  width: 92px;
+  height: 92px;
+}
+
+.feedback-right .img.img3 {
+  right: 389px;
+  bottom: 0px;
+}
+
+.feedback-right .img.img4 {
+  width: 235px;
+  height: 235px;
+  right: 171px;
+  top: 107px;
+}
+
+.feedback-right .img.img5 {
+  top: 0px;
+  right: 0px;
+  width: 110px;
+  height: 110px;
+}
+
+.feedback-right .img.img6 {
+  right: 32px;
+  bottom: 29px;
+}
+
+/* ==================Get Admit================== */
+.get-admit {
+  margin: 122px 0 8px;
+  background: #def6f5;
+}
+
+.get-admit .body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.get-admit .heading-lv2 {
+  margin-top: 76px;
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+.get-admit .desc {
+  margin-top: 35px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 88px;
+}
+
+.get-admit .btn {
+  margin-left: 410px;
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* ==================Footer================== */
+.row-block {
+  margin-top: 131px;
+  display: flex;
+}
+
+.row-block .desc1 {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.row-block .desc2 {
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.row-block .column {
+  margin-left: 144px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-block .column1 .desc {
+  margin-top: 20px;
+}
+
+.row-block .column2 .desc,
+.row-block .column3 .desc {
+  margin-top: 18px;
+}
+
+.row-block .column2 p:nth-child(4) {
+  margin-top: 21px;
+}
+
+.row-block .column4 {
+  margin-left: 137px;
+}
+
+.row-block .column4 p:nth-child(2) {
+  margin-top: 18px;
+}
+
+.row-block .column .desc2:nth-child(2) {
+  margin-top: 25px;
+}
+
+.row-block .column4 .social-media {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 18px;
+}
+
+.row-block .column4 .desc2:nth-child(2) {
+  margin-top: 0px;
+}
+
+.footer .copyright {
+  padding: 80px 0 50px;
+  color: #b0b5b4;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
